@@ -8,7 +8,19 @@
 */
 
 function isAnagram(str1, str2) {
+  let stri = s.split("").sort().join("");
+         let x =       t.split("").sort().join("");
+    // for(let i=s.length-1;i>=0;i--){
+    //     stri+= s[i];
+    // }
+    // // console.log(stri);
 
+    // console.log(stri)
+    // console.log(x)
+     if(stri==x)
+        return true
+
+    return false    
 }
 
 module.exports = isAnagram;
